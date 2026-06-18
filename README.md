@@ -71,6 +71,18 @@ Strong deposit base (291M) relative to loans (207.14M).
 
 <img width="1344" height="751" alt="image" src="https://github.com/user-attachments/assets/b5862880-a910-4569-a55b-dc01348b3c11" />
 
+Worst Performing Region: **South**
+
+Highest LD Ratio (80.23%) – indicates higher lending relative to deposits, which may pose liquidity risk.
+
+Lowest Customer Growth (2.08%) – suggests slower market expansion.
+
+Moderate NPA (11.75M) – while not the highest, it's concerning given the lower loan portfolio.
+
+Lowest Revenue (5.95M) among all regions.
+
+<img width="1343" height="740" alt="image" src="https://github.com/user-attachments/assets/9987cfd9-1b86-4f51-b855-4eb78535fdb8" />
+
 
 # **Results / Insight:** 
 
