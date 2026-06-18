@@ -2,97 +2,69 @@
 This project presents an interactive Power BI dashboard designed to analyze and monitor the performance of bank branches for the financial year 2024 (FY2024).  The dashboard provides key insights into loans, deposits, revenue, profitability, customer growth, and asset quality (NPA), enabling data-driven decision-making.
 
 
-<img width="3024" height="4032" alt="pexels-nicosiegl01-14638897" src="https://github.com/user-attachments/assets/32face54-b231-4a3a-a23d-b9adf7ca2bc6" />
+<img width="1024" height="800" alt="pexels-nicosiegl01-14638897" src="https://github.com/user-attachments/assets/32face54-b231-4a3a-a23d-b9adf7ca2bc6" />
 
 
 
-# **INTRODUCTION**
+# **Introduction:** 
 Outline of the Problem to Solve
-Banks operate across multiple branches and regions, generating large volumes of financial and operational data. However, without a centralized and interactive reporting system, it becomes difficult to:
 
-1. Track performance across branches
-2. Monitor key financial metrics in real time
-3. Identify risk areas such as high NPAs
-4. Understand customer growth trends
+Banks generate large volumes of data across branches, including loans, deposits, revenue, and NPAs. However, without a structured BI system, it is difficult to:
 
-This project solves the problem by creating a Power BI dashboard that consolidates and visualizes bank performance data into actionable insights.
+Track branch-wise performance
+Monitor financial KPIs in a single view
+Identify high-risk areas (NPA-heavy branches)
+Analyze regional and monthly trends
 
-# **Objective**
-- To design an interactive dashboard for bank branch performance analysis
-- To monitor financial KPIs such as loans, deposits, revenue, and profit margins
-- To analyze NPA (Non-Performing Assets) across branches and regions
-- To track monthly customer growth trends
-- To enable data-driven decision-making
+This project solves the problem by building an interactive Power BI dashboard with a proper data model and KPI layer.
 
-# **Importance**
-Helps management quickly assess overall financial health
-Identifies high-risk branches with elevated NPA levels
-Improves strategic planning using regional insights
-Enhances operational efficiency through centralized reporting
-Reduces manual reporting effort and errors
 
-# **Applications**
-Banking & Financial Services Performance Monitoring
-Business Intelligence & Data Analytics Projects
-KPI Tracking & Executive Reporting
-Risk Management (NPA Analysis)
-Customer Growth & Trend Analysis
+# **Objective:** 
+Build a centralized performance dashboard
+Analyze branch, region, and time-based metrics
+Create reusable DAX measures for KPIs
+Enable interactive filtering and drill-down analysis
+Provide insights into growth, profitability, and risk
+Importance
+Improves decision-making speed using real-time insights
+Helps identify underperforming branches
+Tracks financial health metrics efficiently
+Enables data-driven strategy planning
+Reduces dependency on manual reporting
+Applications
+Banking analytics & performance monitoring
+Business Intelligence portfolio project
+KPI dashboards for financial institutions
+Risk analysis (NPA monitoring)
+Customer growth & trend analysis
 
-# **Methodology**
-1. Data Collection
-Gathered structured banking data including loans, deposits, revenue, NPA, and customer metrics
-2. Data Cleaning & Transformation
-Processed raw data using Power BI Power Query
-Handled missing values and ensured data consistency
-3. Data Modeling
-Built relationships between tables (Branch, Region, Time)
-Created an optimized data model for analysis
-4. DAX Calculations
-- Developed measures for:
-  - Total Loans, Deposits, Revenue
-  - NPA Amount & Percentage
-  - Loan-to-Deposit Ratio
-  - Net Profit Margin
-  - Customer Growth %
-5. Visualization
-- Designed interactive visuals:
-  -KPI Cards
-  -Line Chart (Customer Growth Trend)
-  -Donut Chart (Revenue by Region)
-  -Bar Chart (NPA by Region)
-  -Table (Branch-wise NPA %)
-6. Interactivity
--Implemented slicers for:
-  -Branch
-  -Region
-  -Month
+# **Methodology:** 
+1. Data Architecture
 
-# **RESULTS / INSIGHTS**
-- Revenue Distribution
-  -Certain regions contribute significantly higher revenue compared to others
-- NPA Analysis
-  -Identified branches with high NPA percentages, indicating potential financial risk
-- Customer Growth Trends
-  -Observed fluctuations in monthly customer acquisition, with peaks in specific months
-- Financial Health
-  -Loan-to-Deposit Ratio and Net Profit Margin indicate a stable but improvable performance
-- Branch Performance
-  -Clear visibility into top-performing vs underperforming branches
+2. Data Processing & Data Modeling (ETL Process)
 
-# **DEPLOYMENT OF OUR PROJECT**
-Developed using Power BI Desktop (.pbix file)
-Can be deployed via:
-  Power BI Service (Cloud) for sharing dashboards
-  Exported reports (PDF/PPT) for stakeholders
-Integrated with structured datasets (Excel/SQL-based sources)
+3. DAX Calculations Layer
 
-# **Conclusion**
-- Summary
-This project successfully delivers an interactive and insightful dashboard for analyzing bank branch performance. It simplifies complex data into meaningful visuals, enabling better monitoring of KPIs, risk areas, and growth opportunities.
+4. Visualization Design
 
-- Limitations / Challenges Faced
-  - Limited dataset (only 10 branches) may not reflect real-world complexity
-  - No real-time data integration (static dataset used)
-  - Lack of advanced analytics like forecasting or predictive modeling
-  - Data preprocessing required manual effort
-  - Dashboard scalability can be improved for larger datasets
+5. Interactivity
+
+# **Results / Insight:** 
+
+- Strong deposit base with room for loan growth – Total deposits stand at 1,501M, while total loans are 1,121.01M, resulting in a Loan-to-Deposit Ratio of 74.66%. This indicates a conservative lending strategy with scope for future expansion.
+- NPA concentration in specific branches – Salt Lake (5.09%), Andheri (4.66%), and Kharvel Nagar (4.65%) are the top 3 branches with highest NPA percentages, contributing significantly to the total NPA amount of 47.87M. These branches need focused recovery and monitoring efforts.
+- Regional revenue disparity – The South and West regions generate the highest revenue, while the East and North regions underperform. Targeted interventions and strategy replication could help bridge this gap.
+- Customer growth shows positive but seasonal trends – Overall customer growth is 2.25%, with monthly new customer additions fluctuating between 1,399 and 2,170. Peaks observed in February and December suggest seasonal or promotional influences that can be leveraged in future campaigns.
+- High-loan branches not always high-NPA, except one outlier – The top loan disbursement branches are Kharvel Nagar (123.32M), Banjara Hills (118.52M), and Salt Lake (118.15M). However, Salt Lake also appears in the top NPA list, making it a critical outlier requiring immediate credit quality review.
+
+# **Conclusion:** 
+
+This project successfully demonstrates the application of a structured Business Intelligence framework—integrating data modeling, DAX calculations, and interactive visualizations—to convert raw banking data into meaningful, actionable insights. The dashboard offers a clear and scalable view of branch-level performance, enabling stakeholders to monitor key metrics such as loan distribution, NPA concentration, revenue trends, and customer growth. With its user-friendly design and analytical depth, the solution serves as a solid foundation for informed decision-making and ongoing performance tracking.
+
+# **Limitations & Challenges Faced:** 
+
+Dataset is limited to only 10 branches, restricting the scope of cross-branch comparisons and broader trend analysis.
+The dashboard relies on static historical data with no real-time or automated data refresh capabilities.
+Analysis is confined to descriptive analytics; advanced functionalities like predictive modeling, forecasting, or anomaly detection are not included.
+Data preprocessing and cleaning were performed manually, which increases effort and reduces efficiency for frequent updates.
+The current design may face scalability challenges when applied to larger, enterprise-level datasets with multiple regions and time periods.
