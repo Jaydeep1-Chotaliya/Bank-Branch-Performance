@@ -1,0 +1,16 @@
+Customer Growth % = 
+DIVIDE(SUM(Fact_BranchPerformance[New_Customers]) - 
+SUM(Fact_BranchPerformance[Closed_Customers]),
+SUM(Fact_BranchPerformance[Closed_Customers]))
+
+
+Loan-to-Deposit Ratio = 
+DIVIDE(SUM(Fact_BranchPerformance[Total_Loans]), SUM(Fact_BranchPerformance[Total_Deposits]))*100
+
+Net Profit Margin = 
+(SUM(Fact_BranchPerformance[Revenue]) - SUM(Fact_BranchPerformance[Expense])) 
+
+NPA %tage = DIVIDE(SUM(Fact_BranchPerformance[NPA_Amount]),SUM(Fact_BranchPerformance[Total_Loans]))*100
+
+Total_revenue = 
+SUM(Fact_BranchPerformance[Revenue])
