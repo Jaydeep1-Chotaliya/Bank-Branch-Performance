@@ -45,6 +45,33 @@ Customer growth & trend analysis
 4. Visualization – Built an interactive dashboard with charts, cards, and tables.
 5. Interactivity – Added slicers for Branch, Region, and Month to enable dynamic filtering.
 
+# **Snapshot of visuals:** 
+
+Overall Performance of Bank :
+
+The bank maintains a strong loan-to-deposit ratio, indicating efficient fund utilization.
+
+Revenue and profitability are stable, reflecting consistent financial performance.
+
+NPA levels in some branches highlight risk areas that need attention.
+
+Customer growth is positive, showing expansion in market reach and business.
+
+<img width="1343" height="752" alt="image" src="https://github.com/user-attachments/assets/b0f51f43-ebae-4095-af4e-06a3714a7e1a" />
+
+Best Performing Region: **West**
+
+Highest Customer Growth (3.02%) – indicates strong market penetration and customer acquisition.
+
+Lowest NPA Amount (8.35M) – reflects better asset quality and credit management.
+
+Lowest LD Ratio (71.12%) – conservative lending approach with room for loan growth.
+
+Strong deposit base (291M) relative to loans (207.14M).
+
+<img width="1344" height="751" alt="image" src="https://github.com/user-attachments/assets/b5862880-a910-4569-a55b-dc01348b3c11" />
+
+
 # **Results / Insight:** 
 
 - Strong deposit base with room for loan growth – Total deposits stand at 1,501M, while total loans are 1,121.01M, resulting in a Loan-to-Deposit Ratio of 74.66%. This indicates a conservative lending strategy with scope for future expansion.
