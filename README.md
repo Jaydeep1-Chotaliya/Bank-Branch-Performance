@@ -39,15 +39,11 @@ Risk analysis (NPA monitoring)
 Customer growth & trend analysis
 
 # **Methodology:** 
-1. Data Architecture
-
-2. Data Processing & Data Modeling (ETL Process)
-
-3. DAX Calculations Layer
-
-4. Visualization Design
-
-5. Interactivity
+1. Data Extraction – Imported data from Excel files.
+2. ETL & Modeling – Cleaned, transformed, and modeled data using Power Query.
+3. DAX Calculations – Created custom measures for KPIs and financial metrics.
+4. Visualization – Built an interactive dashboard with charts, cards, and tables.
+5. Interactivity – Added slicers for Branch, Region, and Month to enable dynamic filtering.
 
 # **Results / Insight:** 
 
