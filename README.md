@@ -63,8 +63,8 @@ This project successfully demonstrates the application of a structured Business 
 
 # **Limitations & Challenges Faced:** 
 
-Dataset is limited to only 10 branches, restricting the scope of cross-branch comparisons and broader trend analysis.
-The dashboard relies on static historical data with no real-time or automated data refresh capabilities.
-Analysis is confined to descriptive analytics; advanced functionalities like predictive modeling, forecasting, or anomaly detection are not included.
-Data preprocessing and cleaning were performed manually, which increases effort and reduces efficiency for frequent updates.
-The current design may face scalability challenges when applied to larger, enterprise-level datasets with multiple regions and time periods.
+- Dataset is limited to only 10 branches, restricting the scope of cross-branch comparisons and broader trend analysis.
+- The dashboard relies on static historical data with no real-time or automated data refresh capabilities.
+- Analysis is confined to descriptive analytics; advanced functionalities like predictive modeling, forecasting, or anomaly detection are not included.
+- Data preprocessing and cleaning were performed manually, which increases effort and reduces efficiency for frequent updates.
+- The current design may face scalability challenges when applied to larger, enterprise-level datasets with multiple regions and time periods.
